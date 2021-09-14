@@ -16,7 +16,6 @@ body {
 
 .debug .site_header {
     height: 100px;
-    background-color: aquamarine;
 }
 
 .debug .site_main {
@@ -73,6 +72,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 99999;
+    background-color: white;
 }
 
 .menu {
