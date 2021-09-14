@@ -13,7 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="debug">
+<body class="">
 
     <header class="site_header">
         <nav class="menu clearfix">
@@ -105,10 +105,10 @@
                     </h2>
                     <div class="radio_box">
                         <span>
-                            Fatturazione mensile
+                            <input type="radio"> Fatturazione mensile
                         </span>
                         <span>
-                            Fatturazione annuale
+                            <input type="radio"> Fatturazione annuale
                         </span>
                     </div>
                 </div>
@@ -117,14 +117,60 @@
                 <div class="professional box">
 
                     <div class="utente">
-                        <i class="far fa-user">Singolo</i>
+                        <i class="far fa-user"> Singolo</i>
                     </div>
 
                     <div class="pacchetto">
 
-                        <h3>
+                        <h3 class="nome_pacchetto">
                             Professional
                         </h3>
+                        <!-- nome pacchetto-->
+
+                        <span class="prezzo">
+                            19,99 &euro;
+                        </span>
+
+                        <span class="dettagli_prezzo">
+                            /mese
+                        </span>
+                        <!-- dettagli prezzo -->
+
+                        <ul>
+                            <li><i class="far fa-user"></i> 1 utente</li>
+                            <li><i class="far fa-folder"></i> 3 TB di spazio di archiviazione</li>
+                            <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <!-- lista -->
+
+                        <div class="prova">
+                            <a href="#" class="btn btn_blue">Prova gratis per 30 giorni</a>
+                        </div>
+                        <!-- /.prova bottone-->
+
+                        <div class="oppure">
+                            <span>oppure</span>
+                            <span>
+                                <a href="#">acquista ora</a>
+                            </span>
+
+                        </div>
+
+                        <hr class="hr_box">
+
+                        <h4 class="punti_salienti">
+                            Punti salienti del piano
+                        </h4>
+                        <!-- punti salienti -->
+
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            
+                        </ul>
 
                     </div>
                     <!-- /.pacchetto -->
@@ -134,10 +180,132 @@
 
                 <div class="standard box">
 
+                    <div class="utente">
+                        <i class="far fa-building"> Team</i>
+                    </div>
+                    
+                    <div class="pacchetto">
+                    
+                        <h3 class="nome_pacchetto">
+                            Standard
+                        </h3>
+                        <!-- nome pacchetto-->
+                    
+                        <span class="prezzo">
+                            19,99 &euro;
+                        </span>
+                    
+                        <span class="dettagli_prezzo">
+                            /utente/mese, a partire da 3 utenti
+                        </span>
+                        <!-- dettagli prezzo -->
+                    
+                        <ul>
+                            <li><i class="fas fa-user-plus"></i> 1 utente</li>
+                            <li><i class="far fa-folder"></i> 3 TB di spazio di archiviazione</li>
+                            <li><i class="far fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                            </li>
+                        </ul>
+                        <!-- lista -->
+                    
+                        <div class="prova">
+                            <a href="#" class="btn btn_blue">Prova gratis per 30 giorni</a>
+                        </div>
+                        <!-- /.prova bottone-->
+                    
+                        <div class="oppure">
+                            <span>oppure</span>
+                            <span>
+                                <a href="#">acquista ora</a>
+                            </span>
+                    
+                        </div>
+                    
+                        <hr class="hr_box">
+                    
+                        <h4 class="punti_salienti">
+                            Punti salienti del piano
+                        </h4>
+                        <!-- punti salienti -->
+                    
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    
+                        </ul>
+                    
+                    </div>
+                    <!-- /.pacchetto -->
+
                 </div>
                 <!-- /.standard -->
 
                 <div class="advanced box">
+
+                    <div class="utente">
+                        <i class="far fa-building"> Team</i>
+                    </div>
+                    
+                    <div class="pacchetto">
+                    
+                        <h3 class="nome_pacchetto">
+                            Advanced
+                        </h3>
+                        <!-- nome pacchetto-->
+                    
+                        <span class="prezzo">
+                            19,99 &euro;
+                        </span>
+                    
+                        <span class="dettagli_prezzo">
+                            /utente/mese, a partire da 3 utenti
+                        </span>
+                        <!-- dettagli prezzo -->
+                    
+                        <ul>
+                            <li><i class="fas fa-user-plus"></i> 1 utente</li>
+                            <li><i class="far fa-smile"></i> 3 TB di spazio di archiviazione</li>
+                            <li><i class="fas fa-pencil-alt"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                            </li>
+                        </ul>
+                        <!-- lista -->
+                    
+                        <div class="prova">
+                            <a href="#" class="btn btn_blue">Prova gratis per 30 giorni</a>
+                        </div>
+                        <!-- /.prova bottone-->
+                    
+                        <div class="oppure">
+                            <span>oppure</span>
+                            <span>
+                                <a href="#">acquista ora</a>
+                            </span>
+                    
+                        </div>
+                    
+                        <hr class="hr_box">
+                    
+                        <h4 class="punti_salienti">
+                            Punti salienti del piano
+                        </h4>
+                        <!-- punti salienti -->
+                    
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    
+                        </ul>
+                    
+                    </div>
+                    <!-- /.pacchetto -->
 
                 </div>
                 <!-- /.advanced -->

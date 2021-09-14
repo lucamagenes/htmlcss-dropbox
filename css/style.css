@@ -34,17 +34,17 @@ body {
 }
 
 .debug .professional {
-    height: 600px;
+    height: 1000px;
     background-color: tomato;
 }
 
 .debug .standard {
-    height: 600px;
+    height: 1000px;
     background-color: thistle;
 }
 
 .debug .advanced {
-    height: 600px;
+    height: 1000px;
     background-color: lightcoral;
 }
 
@@ -197,12 +197,81 @@ body {
     border: 1px solid black;
 }
 
+/* titolo sezione */
+
+.sec_title h2 {
+    font-size: 2.7rem;
+}
+
+.sec_title .radio_box {
+    margin-top: 2rem;
+}
+
+.radio_box span {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+/* pacchetto */
+
 .content .utente {
     padding: 0.5rem 0;
     border-bottom: 1px solid black;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .box .pacchetto {
     padding: 2rem;
+}
+
+.pacchetto .nome_pacchetto {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.pacchetto .prezzo {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.pacchetto .dettagli_prezzo {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.pacchetto li {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.pacchetto .prova {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.pacchetto .prova .btn {
+    padding: 0.5rem 2.9rem;
+}
+
+.pacchetto a {
+    text-decoration: none;
+}
+
+.pacchetto .oppure {
+    margin-bottom: 2rem;
+}
+
+.pacchetto .hr_box {
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+
+.pacchetto .punti_salienti {
+    margin-bottom: 2rem;
+}
+
+.pacchetto .fa-check {
+    color: blue;
 }
