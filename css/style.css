@@ -72,6 +72,7 @@ body {
     line-height: 100px;
     position: fixed;
     top: 0;
+    z-index: 99999;
 }
 
 .menu {
@@ -95,4 +96,50 @@ body {
 .menu .right .inizia, .menu .right .list_inline, .menu .right li {
     float: right;
     margin-left: 3rem;
+}
+
+/***************************
+************** main 
+*****************************/
+
+/* hero */
+
+.site_main .hero {
+    background-color: cornflowerblue;
+    padding-top: 12rem;
+}
+
+.site_main .hero_container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero .titolo {
+    font-size: 4.8rem;
+}
+
+.hero .hero_text {
+    width: 30%;
+    padding: 4rem 0 2rem 0;
+}
+
+.hero .call {
+    margin: 3rem 0 1.5rem 0;
+}
+
+.hero .scroll {
+    margin: 3rem 0;
+}
+
+.scroll .fas {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.hero .jumbo img {
+    width: 65%;
+    position: absolute;
+    right: 0;
+    top: 17rem;
 }
