@@ -1,3 +1,5 @@
+/* regole generali */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +8,58 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+/***************************
+***** debug 
+*****************************/
+
+.debug .site_header {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.debug .site_main {
+    height: 1000px;
+    background-color: bisque;
+}
+
+.debug .site_footer {
+    height: 400px;
+    background-color: black;
+}
+
+/***********************************
+********** utility 
+**********************************++***/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+/************************************
+************ header 
+**************************************/
+
+.site_header .menu .left, .site_header .menu .right {
+    float: left;
+    width: 50%;
+}
+
+.menu .left .logo, .menu .left li {
+    float: left;
+}
+
+.menu .right button, .menu .right li {
+    float: right;
+}
+
+.site_header .menu {
+    padding: 2rem 2rem;
 }
