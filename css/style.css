@@ -43,6 +43,17 @@ body {
     display: inline-block;
 }
 
+.btn {
+    padding: 0.5rem 1.5rem;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.btn_blue {
+    background-color: blue;
+    color: white;
+}
+
 /************************************
 ************ header 
 **************************************/
@@ -54,10 +65,12 @@ body {
 
 .menu .left .logo, .menu .left li {
     float: left;
+    margin-right: 3rem;
 }
 
-.menu .right button, .menu .right li {
+.menu .right .btn, .menu .right li {
     float: right;
+    margin-left: 3rem;
 }
 
 .site_header .menu {
