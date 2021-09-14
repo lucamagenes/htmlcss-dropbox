@@ -39,14 +39,22 @@ body {
     clear: both;
 }
 
-.menu li {
+.menu .list_inline {
     display: inline-block;
 }
 
-.btn {
-    padding: 0.5rem 1.5rem;
-    vertical-align: middle;
+.list_inline li {
+    list-style: none;
+}
+
+.list_inline a {
     text-decoration: none;
+    color: black;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
 }
 
 .btn_blue {
@@ -58,6 +66,19 @@ body {
 ************ header 
 **************************************/
 
+.site_header {
+    height: 100px;
+    line-height: 100px;
+}
+
+.menu {
+    padding: 0 2rem;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
 .site_header .menu .left, .site_header .menu .right {
     float: left;
     width: 50%;
@@ -68,11 +89,7 @@ body {
     margin-right: 3rem;
 }
 
-.menu .right .btn, .menu .right li {
+.menu .right .inizia, .menu .right .list_inline, .menu .right li {
     float: right;
     margin-left: 3rem;
-}
-
-.site_header .menu {
-    padding: 2rem 2rem;
 }
