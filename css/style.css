@@ -89,12 +89,22 @@ html {
 .btn_blue {
     background-color: #0561ff;
     color: white;
+    transition: all;
+}
+
+.btn_blue:hover {
+    background-color: #3982ff;
 }
 
 .btn_white {
     border: 1px solid black;
     background-color: white;
     color: black;
+    transition: all;
+}
+
+.btn_white:hover {
+    background-color: rgb(247, 247, 247);
 }
 
 div[class^="col_"] {
@@ -362,17 +372,20 @@ BONUS
 .pacchetto .prova {
     margin-top: 3rem;
     margin-bottom: 2rem;
-    background-color: #0561ff;
-    padding: 0.5rem;
     text-align: center;
 }
 
-.pacchetto a {
+.pacchetto .prova a {
+    display: block;
+    padding: 0.5rem;
     text-decoration: none;
+}
+
+.pacchetto .oppure a {
     transition: all;
 }
 
-.pacchetto a:hover {
+.pacchetto .oppure a:hover {
     text-decoration: underline;
 }
 
