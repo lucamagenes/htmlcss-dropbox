@@ -91,20 +91,42 @@ body {
     color: black;
 }
 
+div[class^="col_"] {
+    float: left;
+}
+
 .col_100 {
     width: 100%;
-    float: left;
     margin-bottom: 2rem;
 }
 
-.col_30 {
+.col_33 {
     width: 33.33%;
-    float: left;
-    padding: 0 -1%;
+    padding: 0 1%;
+    margin: 2rem 0;
 }
 
-.col_30 img {
+.col_33 img {
     width: 100%;
+}
+
+.col_30 {
+    width: 30%;
+}
+
+.col_40 {
+    width: 40%;
+}
+
+.col_50 {
+    width: 50%;
+    height: 200px;
+}
+
+.col_50 img {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 /************************************
@@ -284,7 +306,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.pacchetto .hr_box {
+.hr_box {
     width: 3rem;
     margin-bottom: 2rem;
 }
@@ -343,6 +365,84 @@ body {
 
 /* operazioni */
 
+.operazioni {
+    margin-bottom: 4rem;
+}
+
 .operazioni .col_30 h3 {
+    font-size: 1.6rem;
     margin-bottom: 2rem;
+}
+
+/* team */
+
+.team {
+    padding-right: 45%;
+}
+
+.team h2, .team a {
+    padding-bottom: 2rem;
+}
+
+.bg_color {
+    height: 100%;
+    position: relative;
+}
+
+.bg_color img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.designit {
+    background-color: yellowgreen;
+}
+
+.arizona {
+    background-color: brown;
+}
+
+.florida {
+    background-color: deepskyblue;
+}
+
+.topps {
+    background-color: orangered;
+}
+
+.world {
+    background-color: red;
+}
+
+.hearts {
+    background-color: cornflowerblue;
+}
+
+.lonely {
+    background-color: darkblue;
+}
+
+.clear {
+    background-color: gold;
+}
+
+.info_loghi {
+    padding: 2rem;
+}
+
+.info_loghi img {
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
+.info_loghi p {
+    margin-bottom: 2rem;
+}
+
+.color {
+    height: 100%;
+    background-color: lightgray;
 }
