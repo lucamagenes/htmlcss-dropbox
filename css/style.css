@@ -98,7 +98,6 @@ div[class^="col_"] {
 
 .col_100 {
     width: 100%;
-    margin-bottom: 2rem;
 }
 
 .col_33 {
@@ -472,4 +471,45 @@ div[class^="col_"] {
 
 .wall .sec_title {
     padding-right: 15rem;
+}
+
+/************************
+ faq 
+ *************************/
+
+.faq {
+    padding: 5rem 0;
+}
+
+.faq_title, .faq_domanda {
+    padding: 2rem 0;
+    border-bottom: 0.5px solid gray;
+}
+
+.faq_title h3 {
+    font-size: 1.6rem;
+}
+
+.faq_domanda .col_30 span {
+    display: block;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.faq_domanda .col_70 p {
+    font-weight: bold;
+}
+
+.faq_domanda .col_100 p {
+    padding-top: 1rem;
+    padding-right: 6rem;
+    display: none;
+}
+
+.faq_domanda {
+    transition: all;
+}
+
+.faq_domanda:hover p {
+    display: block;
 }
