@@ -10,6 +10,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /***************************
 ***** debug 
 *****************************/
@@ -229,7 +233,7 @@ div[class^="col_"] {
 
 .main_container {
     width: 70%;
-    margin: 15rem auto;
+    margin: 6rem auto;
 }
 
 .main_container .sec_title, .main_container .enterprise {
@@ -255,6 +259,10 @@ div[class^="col_"] {
 }
 
 /* titolo sezione */
+
+#piano_dropbox .sec_title {
+    margin-top: 6rem;
+}
 
 .sec_title h2 {
     font-size: 2.7rem;
