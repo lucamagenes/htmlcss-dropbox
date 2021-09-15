@@ -278,6 +278,10 @@ div[class^="col_"] {
     font-size: 1.2rem;
 }
 
+.professional, .standard, .advanced {
+    min-height: 1100px;
+}
+
 .box .pacchetto {
     padding: 2rem;
 }
@@ -408,6 +412,10 @@ div[class^="col_"] {
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
+}
+
+.loghi .col_30, .loghi .col_40 {
+    min-height: 400px;
 }
 
 .designit {
