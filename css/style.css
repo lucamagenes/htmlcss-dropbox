@@ -86,6 +86,11 @@ body {
     color: white;
 }
 
+.btn_white {
+    border: 1px solid black;
+    color: black;
+}
+
 /************************************
 ************ header 
 **************************************/
@@ -166,7 +171,7 @@ body {
     width: 65%;
     position: absolute;
     right: 0;
-    top: 17rem;
+    bottom: -5rem;
 }
 
 /* main container */
@@ -195,6 +200,7 @@ body {
 .main_container .enterprise {
     margin-top: 3rem;
     border: 1px solid black;
+    position: relative;
 }
 
 /* titolo sezione */
@@ -249,10 +255,9 @@ body {
 .pacchetto .prova {
     margin-top: 3rem;
     margin-bottom: 2rem;
-}
-
-.pacchetto .prova .btn {
-    padding: 0.5rem 2.9rem;
+    background-color: blue;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .pacchetto a {
@@ -274,4 +279,48 @@ body {
 
 .pacchetto .fa-check {
     color: blue;
+}
+
+.pacchetto .dettagli_enterprise {
+    display: block;
+    margin-top: 1.5rem;
+}
+
+.pacchetto .contatta {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+}
+
+.contatta .btn_blue {
+    padding: 0.5rem 3.5rem;
+}
+
+/* partner */
+
+.partner {
+    float: left;
+    margin: 6rem 0;
+}
+
+.partner .partner_img, .partner .pacchetto {
+    float: left;
+}
+
+.partner .partner_img {
+    width: 55%;
+}
+
+.partner .pacchetto {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2rem;
+}
+
+.partner_img img {
+    width: 100%;
+}
+
+.partner .trova {
+    margin-top: 2rem;
 }
