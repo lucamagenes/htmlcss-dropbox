@@ -383,6 +383,7 @@ BONUS
 
 .pacchetto .oppure a {
     transition: all;
+    text-decoration: none;
 }
 
 .pacchetto .oppure a:hover {
