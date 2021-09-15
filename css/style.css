@@ -133,6 +133,10 @@ div[class^="col_"] {
     width: 70%;
 }
 
+.col_20 {
+    width: 20%;
+}
+
 .container {
     width: 70%;
     margin: auto;
@@ -512,4 +516,54 @@ div[class^="col_"] {
 
 .faq_domanda:hover p {
     display: block;
+}
+
+/********************************
+ footer 
+ *********************************/
+
+.site_footer {
+    background-color: black;
+    color: white;
+}
+
+.cont_footer {
+    width: 80%;
+    margin: auto;
+}
+
+.top_footer {
+    padding: 6rem 0;
+}
+
+.bottom_footer {
+    padding: 3rem 0;
+}
+
+.foot_title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.foot_elem a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot_elem li {
+    list-style: none;
+}
+
+.hr_footer {
+    width: 10%;
+}
+
+.bottom_footer .lingua select {
+    color: white;
+    background-color: inherit;
+    border: none;
+}
+
+.lingua label, .lingua select {
+    cursor: pointer;
 }
