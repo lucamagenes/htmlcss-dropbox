@@ -369,6 +369,11 @@ BONUS
 
 .pacchetto a {
     text-decoration: none;
+    transition: all;
+}
+
+.pacchetto a:hover {
+    text-decoration: underline;
 }
 
 .pacchetto .oppure {
@@ -459,6 +464,12 @@ BONUS
 
 .team a {
     color: #0561ff;
+    text-decoration: none;
+    transition: all;
+}
+
+.team a:hover {
+    text-decoration: underline;
 }
 
 .bg_color {
@@ -622,6 +633,11 @@ BONUS
 .foot_elem a {
     text-decoration: none;
     color: white;
+    transition: all;
+}
+
+.foot_elem a:hover {
+    text-decoration: underline;
 }
 
 .foot_elem li {
