@@ -284,7 +284,43 @@ BONUS
     bottom: -5rem;
 }
 
-/* main container */
+/***********************************
+ main container 
+ **********************************+*/
+
+.radio {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.radio_pin {
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.radio_bl {
+    background-color: blue;
+}
+
+.radio_wt {
+    border: 1px solid #d0d0d3;
+}
+
+/* ******************
+redio
+********************** */
 
 .main_container {
     width: 70%;
@@ -300,7 +336,7 @@ BONUS
 .main_container .professional, .main_container .standard, .main_container .advanced {
     float: left;
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
 }
 
 .main_container .standard {
@@ -309,7 +345,7 @@ BONUS
 
 .main_container .enterprise {
     margin-top: 3rem;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
     position: relative;
 }
 
@@ -336,7 +372,7 @@ BONUS
 
 .content .utente {
     padding: 0.5rem 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0d0d3;
     text-align: center;
     font-size: 1.2rem;
 }
@@ -363,6 +399,7 @@ BONUS
 .pacchetto .dettagli_prezzo {
     display: block;
     margin-bottom: 2rem;
+    color: #667683;
 }
 
 .pacchetto li {
@@ -587,7 +624,7 @@ BONUS
 
 .faq_title, .faq_domanda {
     padding: 2rem 0;
-    border-bottom: 0.5px solid gray;
+    border-bottom: 0.5px solid #d0d0d3;
 }
 
 .faq_title h3 {
@@ -608,6 +645,7 @@ BONUS
     padding-top: 1rem;
     padding-right: 6rem;
     display: none;
+    color: #999999;
 }
 
 .faq_domanda {
@@ -645,6 +683,10 @@ BONUS
     margin-bottom: 1rem;
 }
 
+.foot_elem {
+    line-height: 30px;
+}
+
 .foot_elem a {
     text-decoration: none;
     color: white;
@@ -664,11 +706,11 @@ BONUS
 }
 
 .bottom_footer .lingua select {
-    color: white;
     background-color: inherit;
     border: none;
 }
 
 .lingua label, .lingua select {
     cursor: pointer;
+    color: #999999;
 }
