@@ -298,8 +298,8 @@ BONUS
 }
 
 .radio_pin {
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
@@ -310,7 +310,7 @@ BONUS
 }
 
 .radio_bl {
-    background-color: blue;
+    background-color: #0561ff;
 }
 
 .radio_wt {
