@@ -1,0 +1,254 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
+}
+
+/* UTILITY */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div[class^="col_"] {
+    float: left;
+}
+
+.cont_80 {
+    width: 80%;
+    margin: auto;
+}
+
+.cont_70 {
+    width: 70%;
+    margin: auto;
+}
+
+.col_33 {
+    width: 33.33%;
+    float: left;
+}
+
+.col_16 {
+    width: 16.66%;
+}
+
+.col_50 {
+    width: 50%;
+    float: left;
+}
+
+.col_100 {
+    width: 100%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #0061ff;
+}
+
+/* HEADER */
+
+.site_header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    box-shadow: 0 3px #c7c5c5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1440px;
+    z-index: 1;
+}
+
+.logo {
+    text-align: center;
+}
+
+.scarica_app {
+    text-align: right;
+}
+
+.logo img {
+    width: 65%;
+    vertical-align: middle;
+}
+
+.site_header .cont_80 {
+    padding: 0 2rem;
+}
+
+.site_header a {
+    font-size: 1.3rem;
+}
+
+.prova a {
+    padding: 8px 16px;
+    border: 1px solid #0061ff;
+    border-radius: 5px;
+    transition: all;
+}
+
+.prova a:hover {
+    color: #0052d9;
+    border-color: #0052d9;
+}
+
+/* main */
+
+.site_main {
+    padding: 20rem 0 12rem 0;
+}
+
+.site_main .col_100, .site_main .col_50 {
+    padding: 1rem 0;
+}
+
+.big_image {
+    min-height: 500px;
+    position: relative;
+}
+
+.big_image img {
+    width: 64%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.crea {
+    text-align: right;
+    height: 53px;
+    line-height: 53px;
+}
+
+.google .box, .apple .box {
+    display: inline-block;
+}
+
+.google span, .apple span {
+    display: inline-block;
+}
+
+.google .nome, .apple .nome {
+    width: calc(100% - 29.33px);
+    text-align: center;
+}
+
+.fab {
+    font-size: 1.5rem;
+}
+
+.accedi a {
+    padding: 8px 20px;
+    background-color: #0061ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border: 1px solid #0c6ebe;
+}
+
+.accedi {
+    text-align: right;
+}
+
+.site_main .box {
+    width: 100%;
+    padding: 8px 6px;
+    font-size: 1.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.blue {
+    background-color: #0061ff;
+    color: white;
+    transition: all;
+}
+
+.blue:hover, .accedi a:hover {
+    background-color: #0062ffbd;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.check {
+    font-size: 1rem;
+}
+
+.check input {
+    transform: scale(1.4);
+    margin-right: 0.5rem;
+}
+
+/* FOOTER */
+
+.site_footer {
+    background-color: white;
+}
+
+.site_footer .cont_80 {
+    border-top: 1px solid #999999;
+}
+
+.row_foot {
+    padding: 4rem 2rem;
+}
+
+.foot_title {
+    font-size: 1.3rem;
+}
+
+.foot_title, .lingua select {
+    color: #686666;
+}
+
+.foot_title, .foot_elem {
+    line-height: 30px;
+}
+
+.foot_elem a, .lingua label {
+    text-decoration: none;
+    color: #999999;
+    transition: all;
+}
+
+.scarica_app a:hover, .crea a:hover, .forgot a:hover, .foot_elem a:hover {
+    text-decoration: underline;
+}
+
+.foot_elem li {
+    list-style: none;
+}
+
+.lingua select {
+    background-color: inherit;
+    border: none;
+}
+
+.lingua label, .lingua select {
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.col_16 .lingua {
+    text-align: right;
+}
+
+.col_empty {
+    min-height: 300px;
+}
