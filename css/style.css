@@ -318,7 +318,7 @@ BONUS
 }
 
 /* ******************
-redio
+radio
 ********************** */
 
 .main_container {
@@ -399,6 +399,12 @@ redio
     display: block;
     margin-bottom: 2rem;
     color: #667683;
+}
+
+.fa-ul {
+    list-style-type: none;
+    margin-left: 1.5em;
+    padding-left: 0;
 }
 
 .pacchetto li {
