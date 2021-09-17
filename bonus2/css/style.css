@@ -93,10 +93,59 @@ div[class^="col_"] {
     font-size: 1.2rem;
     border: 1px solid black;
     padding: 0.5rem 1rem;
+    transition: all;
+}
+
+.prova:hover {
+    background-color: #0061ff;
+    color: white;
+    border: 1px solid white;
 }
 
 .nav_right .fas {
     font-size: 0.9rem;
+}
+
+.nav_right .info_nav {
+    transition: all;
+}
+
+.nav_right li:hover .info_nav {
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    width: calc(100% - 3.5rem);
+    margin-left: 3.5rem;
+    text-align: left;
+    display: none;
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    box-shadow: 11px 14px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: #637381;
+    padding: 0 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /***************************
