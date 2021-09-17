@@ -19,6 +19,10 @@ body {
     clear: both;
 }
 
+div[class^="col_"] {
+    float: left;
+}
+
 .navbar .left {
     width: 35%;
     float: left;
@@ -27,6 +31,15 @@ body {
 .navbar .right {
     width: 65%;
     float: left;
+}
+
+.cont_60 {
+    width: 60%;
+    margin: auto;
+}
+
+.col_50 {
+    width: 50%;
 }
 
 /* header */
@@ -39,6 +52,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 .navbar {
@@ -63,6 +78,55 @@ body {
 
 .nav_right a {
     text-decoration: none;
-    font-size: 1.4rem;
     color: black;
+}
+
+.nav_right .info_nav {
+    font-size: 1.4rem;
+}
+
+.nav_right .prova {
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+
+.nav_right .fas {
+    font-size: 0.9rem;
+}
+
+/***************************
+ main 
+ ****************************/
+
+/* HERO */
+
+.site_main {
+    width: 100%;
+}
+
+.hero {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/* titolo */
+
+.titolo {
+    margin-bottom: 8rem;
+}
+
+.titolo .site_title {
+    font-size: 4rem;
+}
+
+.titolo .mission {
+    text-align: right;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
 }
