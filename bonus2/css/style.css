@@ -193,3 +193,63 @@ div[class^="col_"] {
     color: black;
     border-bottom: 3px solid black;
 }
+
+/* anteprima */
+
+.anteprima {
+    padding-bottom: 8rem;
+}
+
+.anteprima .video img {
+    width: 100%;
+    height: 400px;
+    filter: brightness(0.4);
+    transition: all;
+}
+
+.anteprima .video:hover img {
+    filter: brightness(1);
+}
+
+.anteprima .video {
+    position: relative;
+}
+
+.video .circle {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle .fas {
+    color: white;
+    font-size: 2rem;
+}
+
+.videotext {
+    height: 400px;
+    padding-left: 6rem;
+    padding-top: 1.5rem;
+}
+
+.videotext .video_title {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+.videotext .video_text {
+    font-size: 1.4rem;
+    padding-right: 2rem;
+}
+
+.videotext .video_arrow {
+    text-align: right;
+    font-size: 2.5rem;
+}

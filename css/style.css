@@ -676,6 +676,10 @@ radio
     display: block;
 }
 
+.faq_domanda:hover .fas {
+    transform: rotate(180deg);
+}
+
 /********************************
  footer 
  *********************************/
@@ -692,10 +696,6 @@ radio
 
 .top_footer {
     padding: 6rem 0;
-}
-
-.bottom_footer {
-    padding: 3rem 0;
 }
 
 .foot_title {
@@ -721,8 +721,10 @@ radio
     list-style: none;
 }
 
-.hr_footer {
-    width: 10%;
+.bottom_footer .lingua {
+    padding: 3rem 0;
+    width: 7rem;
+    border-top: 1px solid #999999;
 }
 
 .bottom_footer .lingua select {
