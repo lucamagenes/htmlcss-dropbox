@@ -1,0 +1,68 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
+}
+
+/* common */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar .left {
+    width: 35%;
+    float: left;
+}
+
+.navbar .right {
+    width: 65%;
+    float: left;
+}
+
+/* header */
+
+.site_header {
+    width: 100%;
+    min-width: 1440px;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+}
+
+.navbar .logo img {
+    width: 30%;
+    vertical-align: middle;
+}
+
+.nav_right {
+    text-align: right;
+}
+
+.nav_right li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 3.5rem;
+}
+
+.nav_right a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
