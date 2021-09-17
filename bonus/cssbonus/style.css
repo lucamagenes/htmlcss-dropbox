@@ -38,8 +38,12 @@ div[class^="col_"] {
     float: left;
 }
 
+.col_21 {
+    width: 21%;
+}
+
 .col_16 {
-    width: 16.66%;
+    width: 16%;
 }
 
 .col_50 {
