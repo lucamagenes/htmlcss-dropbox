@@ -85,7 +85,7 @@ a {
 }
 
 .logo img {
-    width: 65%;
+    width: 40%;
     vertical-align: middle;
 }
 
@@ -132,6 +132,10 @@ a {
     transform: translate(-50%, -50%);
 }
 
+.titolo h1 {
+    font-weight: 100;
+}
+
 .crea {
     text-align: right;
     height: 53px;
@@ -173,6 +177,7 @@ a {
     padding: 8px 6px;
     font-size: 1.3rem;
     border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
 }
 
 .blue {
