@@ -169,6 +169,7 @@ div[class^="col_"] {
     top: 0;
     z-index: 99999;
     background-color: white;
+    min-width: 1440px;
 }
 
 .menu {
@@ -399,6 +400,7 @@ radio
     display: block;
     margin-bottom: 2rem;
     color: #667683;
+    min-height: 50px;
 }
 
 .fa-ul {
